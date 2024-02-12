@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Public Sans";
+}
+
+.gradient-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, red, blue);
+    background-size: 200% 200%;
+    animation: gradient-animation 7s linear infinite;
+}
+h1,p {
+    color: white;
+    text-align: center;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+    max-width: 375px; /* Adjust the size as needed */
+}
+@font-face {
+    font-family: "Public Sans";
+    src: url('https://raw.githubusercontent.com/uswds/public-sans/f8e38ba18f1963edd4d09c9194472a30d55eca2a/fonts/webfonts/PublicSans-SemiBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
