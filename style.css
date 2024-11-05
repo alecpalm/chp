@@ -14,7 +14,7 @@ body, html {
     background-size: 200% 200%;
     animation: gradient-animation 7s linear infinite;
 }
-h1,p {
+h1,p,h2 {
     color: white;
     text-align: center;
 }
