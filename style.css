@@ -55,7 +55,7 @@ h1,p,h2 {
 }
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: true;
     font-size: 23px;
 }
 
